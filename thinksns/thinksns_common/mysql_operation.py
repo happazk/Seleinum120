@@ -13,12 +13,7 @@ def get_verfied_code(session):
 
 
 def excute_mysql(select_sql):
-    # host='localhost',
-    # port=3310,
-    # user='woider',
-    # passwd='3243',
-    # db='python',
-    # charset='utf8'
+
     # db = pymysql.connect(host="192.168.102.151",user= "root", passwd="123456",db= "thinksns")
     db =pymysql.connect(host="192.168.102.151",user= "root", db= "thinksns")
     # 创建游标

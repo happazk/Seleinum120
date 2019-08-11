@@ -25,6 +25,9 @@ class TestFriendlyLink(unittest.TestCase):
         sleep(2)
         self.assertEqual('ThinkSNS开源社交系统-SNS社交网站_APP软件开发_社交系统源码', driver.title)
 
+    def test_temp(self):
+        print("hahaha ")
+
     def tearDown(self):
         self.driver.quit()
 
