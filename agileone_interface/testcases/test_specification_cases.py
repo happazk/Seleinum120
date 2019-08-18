@@ -10,11 +10,11 @@ from agileone_interface.base.interface_url import ADD_SPECIFICATION_URL, DEL_SPE
     EDIT_SPECIFICATION_URL
 from agileone_interface.base.specification_operation import query_specification, query_specification_count, \
     add_specification
-from agileone_interface.testcases.specification_data import SPECIFICATION_ADD_DATA, SPECIFICATION_DEL_DATA, \
+from agileone_interface.testdatas.specification_data import SPECIFICATION_ADD_DATA, SPECIFICATION_DEL_DATA, \
     SPECIFICATION_QUERY_DATA, SPECIFICATION_EDIT_DATA
 
 
-class MyTestCase(unittest.TestCase):
+class TestSpecificationInterface(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         # 登录
