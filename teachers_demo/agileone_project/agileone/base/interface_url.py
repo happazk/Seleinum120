@@ -3,7 +3,8 @@ Created on 2019年8月14日
 
 @author: wangchaolin
 '''
-from agileone.base.base_info import IP
+
+from teachers_demo.agileone_project.agileone.base.base_info import IP
 
 # 登录接口的地址
 LOGIN_URL = IP+"/agileone/index.php/common/login"

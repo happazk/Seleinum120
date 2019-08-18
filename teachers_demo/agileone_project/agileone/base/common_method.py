@@ -10,6 +10,7 @@ from agileone.base.interface_url import LOGIN_URL, NOTICE_QUERY_URL
 def get_phpsessid_with_login():
     # 定义登录时所需的账号信息
     payload = f"username={ADMIN_NAME}&password={ADMIN_PASSWORD}&savelogin=true"
+
     # 模拟登录，并取得返回的头部信息
     response = requests.request("POST", LOGIN_URL, data=payload, headers=HEADERS)
     # 取得cookie信息
