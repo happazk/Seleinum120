@@ -4,11 +4,13 @@ Created on 2019年8月14日
 @author: wangchaolin
 '''
 import unittest, requests, traceback
-from agileone.base.interface_url import NOTICE_ADD_URL
-from agileone.base.base_info import HEADERS
 from time import time
-from agileone.base.common_method import get_last_notice_id
-from agileone.testdata.test_notice_add_data import TEST_NOTICE_ADD_DATA_LIST
+
+from teachers_demo.agileone_project.agileone.base.base_info import HEADERS
+from teachers_demo.agileone_project.agileone.base.common_method import get_last_notice_id
+from teachers_demo.agileone_project.agileone.base.interface_url import NOTICE_ADD_URL
+from teachers_demo.agileone_project.agileone.testdata.test_notice_add_data import TEST_NOTICE_ADD_DATA_LIST
+
 
 class TestNoticeAddWithDDT(unittest.TestCase):
 

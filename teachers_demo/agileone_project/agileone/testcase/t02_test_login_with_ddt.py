@@ -4,9 +4,10 @@ Created on 2019年8月14日
 @author: wangchaolin
 '''
 import unittest, requests, traceback
-from agileone.base.interface_url import LOGIN_URL
-from agileone.base.base_info import HEADERS
-from agileone.testdata.test_login_data import TEST_LOGIN_DATA_LIST
+
+from teachers_demo.agileone_project.agileone.base.base_info import HEADERS
+from teachers_demo.agileone_project.agileone.base.interface_url import LOGIN_URL
+from teachers_demo.agileone_project.agileone.testdata.test_login_data import TEST_LOGIN_DATA_LIST
 
 class TestLoginWithDDT(unittest.TestCase):
 
