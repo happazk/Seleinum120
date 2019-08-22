@@ -7,10 +7,13 @@ import os, time
 from unittest.suite import TestSuite
 from unittest.runner import TextTestRunner
 from unittest.loader import TestLoader
-from agileone_interface.base.HTMLTestRunner import HTMLTestRunner
+# from agileone_interface.base.HTMLTestRunner import HTMLTestRunner
+from agileone_interface.base.HTMLTestRunner_PY3 import HTMLTestRunner
 
 
 # 第一部分：收集脚本
+from agileone_interface.send_email.send_email_main import send_email_qq
+
 '''
 方式一：通过TestSuite类
 '''
@@ -77,6 +80,9 @@ fp = open(report_path, "wb")
 # 实例化HTMLTestRunner类，得到执行器
 runner = HTMLTestRunner(stream=fp, title="Agileone项目自动化测试报告",
                         description="测试项为规格说明接口")
+
+
 # 执行收集到的脚本
 runner.run(suite)
+send_email_qq()
 

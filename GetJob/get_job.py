@@ -96,10 +96,12 @@ class GetJob(unittest.TestCase):
             work_location =job_info_list[2]#工作地点
             money =job_info_list[3]#薪资
             post_time =job_info_list[4]#发布时间
-
-            span_ele_job_page=job_ele.find_element_by_xpath("//p[@class='t1 ']/span")
+            sleep(1)
+            span_ele_job_page=job_ele.find_element_by_xpath(".//p[@class='t1 ']/span")
+            # temp =job_ele.find_element_by_xpath(".//span[@class='t2']/a").text
+            # temp2 =job_ele.find_element_by_class_name('t2').find_element_by_tag_name('a').text
             # HP会快速回复的公司，需要单独获取
-            span_ele_job_page_quick=job_ele.find_element_by_xpath("//p[@class='t1 tg1']/span")
+            # span_ele_job_page_quick=job_ele.find_element_by_xpath("//p[@class='t1 tg1']/span")
 
             handle = driver.current_window_handle
             #进入招聘详细页面,打开一个新的窗口
@@ -149,6 +151,11 @@ class GetJob(unittest.TestCase):
         print(info_str)
         #写入表格中
         pass
+
+
+
+
+
 
     def tearDown(self):
         self.driver.quit()
