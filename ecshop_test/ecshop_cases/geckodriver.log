@@ -1,0 +1,474 @@
+1567146142529	geckodriver	INFO	geckodriver 0.19.1
+1567146142536	geckodriver	INFO	Listening on 127.0.0.1:52474
+1567146144594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.pVNZREbpzT56"
+1567146144987	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567146145365	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567146145682	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2064] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4752] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567146148601	Marionette	INFO	Listening on port 52480
+1567146148708	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567146148753	Marionette	DEBUG	Register listener.js for window 4294967297
+1567146148954	Marionette	INFO	New connections will no longer be accepted
+Promise rejected after context unloaded: Message manager disconnected
+1567146220810	geckodriver	INFO	geckodriver 0.19.1
+1567146220820	geckodriver	INFO	Listening on 127.0.0.1:52506
+1567146222860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.cTmBTN3Y5ea2"
+1567146223307	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567146223605	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567146223834	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4556] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5128] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567146226076	Marionette	INFO	Listening on port 52512
+1567146226527	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567146226563	Marionette	DEBUG	Register listener.js for window 4294967297
+1567146226675	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567146226727	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567146226728	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567146227013	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146227019	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146227538	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567146227561	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146227663	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146227664	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146227676	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567146246259	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1567146247612	Marionette	INFO	New connections will no longer be accepted
+1567146298131	geckodriver	INFO	geckodriver 0.19.1
+1567146298137	geckodriver	INFO	Listening on 127.0.0.1:52577
+1567146300179	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.u8cavksyc9sI"
+1567146300604	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567146300867	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567146301077	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2656] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4708] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4708] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567146303619	Marionette	INFO	Listening on port 52583
+1567146303939	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567146304023	Marionette	DEBUG	Register listener.js for window 4294967297
+1567146304126	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567146304183	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567146304184	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567146304685	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146304695	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146305173	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567146305193	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146305309	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146305309	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567146305315	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567146315015	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+1567146315033	Marionette	INFO	New connections will no longer be accepted
+[Parent 2656] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147106031	geckodriver	INFO	geckodriver 0.19.1
+1567147106046	geckodriver	INFO	Listening on 127.0.0.1:52658
+1567147108089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.Vs2ApABXEBUz"
+1567147108524	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147108759	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147109008	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4860] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 716] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 716] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147110911	Marionette	INFO	Listening on port 52664
+1567147111201	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567147111237	Marionette	DEBUG	Register listener.js for window 4294967297
+1567147111351	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567147111400	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567147111401	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567147111665	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147111773	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147112292	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567147112315	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147112430	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147112430	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147112438	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567147122039	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+1567147131077	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1567147137235	Marionette	INFO	New connections will no longer be accepted
+[Parent 4860] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147258456	geckodriver	INFO	geckodriver 0.19.1
+1567147258471	geckodriver	INFO	Listening on 127.0.0.1:52747
+1567147260502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.ke47rjnb7VY1"
+1567147261081	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147261395	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147261607	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2016] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5204] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5204] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147263637	Marionette	INFO	Listening on port 52753
+1567147263784	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567147263836	Marionette	DEBUG	Register listener.js for window 4294967297
+1567147263940	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567147264007	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567147264007	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567147264281	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147264303	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147264780	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567147264801	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147264887	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147264888	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147264899	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+1567147265417	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567147280440	Marionette	INFO	New connections will no longer be accepted
+[Parent 2016] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147665826	geckodriver	INFO	geckodriver 0.19.1
+1567147665834	geckodriver	INFO	Listening on 127.0.0.1:52821
+1567147667927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.gG68GjTQnId5"
+1567147668299	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147668559	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147668749	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2680] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5388] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5388] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147670707	Marionette	INFO	Listening on port 52827
+1567147671064	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567147671102	Marionette	DEBUG	Register listener.js for window 4294967297
+1567147671185	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567147671227	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567147671227	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567147671461	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147671556	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147672101	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567147672126	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147672280	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147672281	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147672289	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567147690908	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1567147692128	Marionette	INFO	New connections will no longer be accepted
+[Parent 2680] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2856] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1567147800084	geckodriver	INFO	geckodriver 0.19.1
+1567147800098	geckodriver	INFO	Listening on 127.0.0.1:52899
+1567147802135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.uBUUBk6I67aF"
+1567147802540	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147802821	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147803130	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4120] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1516] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1516] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147805266	Marionette	INFO	Listening on port 52905
+1567147805748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567147805782	Marionette	DEBUG	Register listener.js for window 4294967297
+1567147805895	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567147805942	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567147805943	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567147806333	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147806445	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147807006	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567147807026	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147807134	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147807134	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147807141	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567147825439	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1567147827025	Marionette	INFO	New connections will no longer be accepted
+[Parent 4120] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4464] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1567147884799	geckodriver	INFO	geckodriver 0.19.1
+1567147884812	geckodriver	INFO	Listening on 127.0.0.1:52980
+1567147886859	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.ELFr4SqVvqVC"
+1567147887295	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147887575	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147887849	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2588] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2588] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147890083	Marionette	INFO	Listening on port 52987
+1567147890490	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567147890529	Marionette	DEBUG	Register listener.js for window 4294967297
+1567147890663	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567147890714	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567147890714	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567147891017	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147891135	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147891668	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567147897575	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147897720	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147897722	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147897739	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567147910231	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+1567147930075	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 1988] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147962555	geckodriver	INFO	geckodriver 0.19.1
+1567147962571	geckodriver	INFO	Listening on 127.0.0.1:53091
+1567147964614	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.t0QAykDTUOg0"
+1567147965176	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147965415	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567147965615	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5628] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 948] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 948] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567147967733	Marionette	INFO	Listening on port 53097
+1567147967752	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567147967818	Marionette	DEBUG	Register listener.js for window 4294967297
+1567147968011	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567147968066	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567147968067	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567147968302	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147968319	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147968929	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567147972018	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147972189	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147972190	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567147972207	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+1567147972471	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567147998361	Marionette	INFO	New connections will no longer be accepted
+[Parent 5628] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567148409821	geckodriver	INFO	geckodriver 0.19.1
+1567148409839	geckodriver	INFO	Listening on 127.0.0.1:53191
+1567148411881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.nH3I6ge0knIR"
+1567148412471	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148412721	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148412975	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2280] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4504] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4504] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567148414950	Marionette	INFO	Listening on port 53197
+1567148415040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567148415102	Marionette	DEBUG	Register listener.js for window 4294967297
+1567148415288	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567148415381	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567148415381	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567148415687	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148415702	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148416363	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148419689	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148419860	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148419860	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148419867	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567148435172	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1567148441034	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+1567148455123	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148535658	geckodriver	INFO	geckodriver 0.19.1
+1567148535664	geckodriver	INFO	Listening on 127.0.0.1:53287
+1567148537725	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.u1SPDORf7Tor"
+1567148538140	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148538427	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148538691	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5984] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5984] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567148540797	Marionette	INFO	Listening on port 53293
+1567148540875	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567148540933	Marionette	DEBUG	Register listener.js for window 4294967297
+1567148541161	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567148541215	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567148541215	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567148541434	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148541449	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148541977	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148546139	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148546270	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148546270	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148546282	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567148560813	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1567148567467	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+1567148601705	geckodriver	INFO	geckodriver 0.19.1
+1567148601714	geckodriver	INFO	Listening on 127.0.0.1:53369
+1567148603770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.sxRWVeNat7RP"
+1567148604202	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148604444	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148604698	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6128] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6128] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567148606623	Marionette	INFO	Listening on port 53375
+1567148606893	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567148606935	Marionette	DEBUG	Register listener.js for window 4294967297
+1567148607045	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567148607097	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567148607098	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567148607491	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148607588	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148608004	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148612866	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148613054	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148613055	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148613069	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"0"}
+1567148622461	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+1567148626811	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1567148638284	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148773558	geckodriver	INFO	geckodriver 0.19.1
+1567148773563	geckodriver	INFO	Listening on 127.0.0.1:53459
+1567148775608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.kcGMvOH5t7NN"
+1567148775997	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148776260	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148776447	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3372] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567148778444	Marionette	INFO	Listening on port 53465
+1567148778733	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567148778777	Marionette	DEBUG	Register listener.js for window 4294967297
+1567148778877	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567148778924	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567148778925	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567148779210	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148779294	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148779798	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148779817	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148779934	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148779934	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148779945	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+1567148780462	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+
+1567148780792	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148790863	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4464] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567148800168	geckodriver	INFO	geckodriver 0.19.1
+1567148800173	geckodriver	INFO	Listening on 127.0.0.1:53533
+1567148802214	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.MmcHzwAecJkw"
+1567148802572	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148802789	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1567148803023	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1456] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1456] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1567148805034	Marionette	INFO	Listening on port 53539
+1567148805320	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567148805360	Marionette	DEBUG	Register listener.js for window 4294967297
+1567148805515	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1567148805551	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1567148805551	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1567148805786	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148805794	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148806350	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148806382	Marionette	DEBUG	Received DOM event "beforeunload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148806489	Marionette	DEBUG	Received DOM event "pagehide" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148806491	Marionette	DEBUG	Received DOM event "unload" for "http://172.31.21.138/admin/privilege.php?act=login"
+1567148806511	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://172.31.21.138/admin/index.php"
+1567148807054	Marionette	DEBUG	Received DOM event "pageshow" for "http://172.31.21.138/admin/index.php"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+<br />
+<b>Strict Standards</b>:  mktime(): You should be using the time() function instead in <b>/var/www/html/admin/cloud.php</b> on line <b>38</b><br />
+{"error":0,"message":"","content":"<li class=\"explode\" name=\"menu\" key=\"20_yun\" id=\"20_yun\">\n    \u4e91\u670d\u52a1\u4e2d\u5fc3        <ul><li class=\"menu-item\"><a href=\"cloud.php?act=check_ver&ent_id&admin_url&shop_url&certificate_id&sess_id&release&token\" target=\"main-frame\">\u67e5\u770b\u6700\u65b0\u7248\u672c\u53ca\u6fc0\u6d3b<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=sms&ent_id&ent_ac&t&admin_url&sess_id&certificate_id&token\" target=\"main-frame\">\u77ed\u4fe1\u670d\u52a1<\/a><\/li><li class=\"menu-item\"><a href=\"cloud.php?act=tools&shop_url\" target=\"main-frame\">\u5546\u5bb6\u5de5\u5177<\/a><\/li><\/ul>\n    <\/li>"}
+JavaScript error: , line 0: uncaught exception: transport.js/parseResult() error: can't parse to JSON.
+
+
+1567148807392	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1567148817437	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4440] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

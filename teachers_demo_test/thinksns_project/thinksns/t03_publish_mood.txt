@@ -1,0 +1,37 @@
+定义测试数据
+
+********************登录ThinkSNS********************
+输入邮箱地址 email
+输入登录密码 passwd
+点击登录按钮 button
+取出首页显示的用户姓名，并进行对比 id my_name
+
+调用登录方法，登录主账号
+先定位出左侧心情列表，再点击 心情 class user_app_list
+先定位出心情内容输入框所在的textarea元素 id mini-coment
+点击该textarea元素
+定义随机文本内容（时间戳）
+根据textarea元素输入随机文本内容
+先定位出所有心情图片所在的div元素 class ico_link
+再随机选出一个div元素
+根据该div元素定位出其下一级的img元素
+取出该img元素的src属性值
+再点击该img元素
+点击发布按钮 class btn_big
+sleep(1)
+先定位出心情内容所在的span元素 id mini-content
+取出该span元素的文本内容，并进行判断
+再根据span元素定位出其下一级的img元素，并取出src属性值进行判断
+
+点击 退出
+调用登录方法，登录好友账号
+先定位出左侧心情列表，再点击 心情 class user_app_list
+先定位出所有心情记录所在的div元素，并取出第一个 class bg01
+根据div元素定位出其范围内的strong元素，并取出其文本值进行判断
+根据div元素定位出其下一级的p元素
+根据p元素取出其文本值，并进行判断（去掉最后的空格和回复）
+根据p元素定位出其下一级的img元素，并取出src属性值进行判断
+
+
+
+

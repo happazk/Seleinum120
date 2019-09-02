@@ -1,0 +1,527 @@
+1565866348090	geckodriver	INFO	geckodriver 0.19.1
+1565866348121	geckodriver	INFO	Listening on 127.0.0.1:50789
+1565866350279	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.yiF6v9sib1Ui"
+1565866352396	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866353334	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866354082	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3444] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3444] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565866365763	Marionette	INFO	Listening on port 50797
+1565866366067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565866366124	Marionette	DEBUG	Register listener.js for window 4294967297
+1565866373258	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565866373519	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565866373519	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1565866373533	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/common/login"
+1565866373543	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/common/login"
+1565866377929	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565866450026	geckodriver	INFO	geckodriver 0.19.1
+1565866450057	geckodriver	INFO	Listening on 127.0.0.1:50940
+1565866452159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.dgdNOPgBWOTB"
+1565866452729	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866453106	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866453464	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3960] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4352] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4352] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565866456597	Marionette	INFO	Listening on port 50948
+1565866457417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565866457480	Marionette	DEBUG	Register listener.js for window 4294967297
+1565866462893	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565866463078	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565866463079	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565866463376	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565866463703	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565866468377	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565866472067	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565866472218	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565866472220	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565866472382	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565866472480	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565866485263	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565866485448	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565866485450	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565866485580	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565866485701	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565866492573	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1565866506090	Marionette	INFO	New connections will no longer be accepted
+1565866544720	geckodriver	INFO	geckodriver 0.19.1
+1565866544734	geckodriver	INFO	Listening on 127.0.0.1:51106
+1565866546788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.YzZ0j6iADG24"
+1565866547332	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866547703	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866547979	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3000] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4348] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565866551218	Marionette	INFO	Listening on port 51114
+1565866552023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565866552089	Marionette	DEBUG	Register listener.js for window 4294967297
+1565866555773	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565866556030	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565866556031	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565866556702	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565866556791	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565866557409	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565866558592	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565866558820	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565866558823	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565866559011	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565866559091	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565866563510	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565866564272	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565866587664	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1565866607966	geckodriver	INFO	geckodriver 0.19.1
+1565866607974	geckodriver	INFO	Listening on 127.0.0.1:51241
+1565866610031	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.1jftPVPEGNhZ"
+1565866610544	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866610891	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866611174	Marionette	INFO	Enabled via --marionette
+1565866614080	Marionette	INFO	Listening on port 51248
+1565866614156	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565866626477	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565866650582	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150084,name=PBrowser::Msg_UpdateNativeWindowHandle) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150078,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+1565866934315	geckodriver	INFO	geckodriver 0.19.1
+1565866934330	geckodriver	INFO	Listening on 127.0.0.1:51683
+1565866936390	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.cCl9vl7MFFI9"
+1565866936897	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866937180	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565866937402	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4604] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4124] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4124] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565866940331	Marionette	INFO	Listening on port 51691
+1565866940536	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565866940606	Marionette	DEBUG	Register listener.js for window 4294967297
+1565866940786	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565866940976	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565866940976	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565866941611	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565866941783	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565866942262	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565866942471	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565866942473	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565866944164	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565866944189	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565866945260	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565866945386	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565866945387	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565866945561	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565866945620	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565866946548	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565866947644	Marionette	INFO	New connections will no longer be accepted
+[Parent 4604] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565867400146	geckodriver	INFO	geckodriver 0.19.1
+1565867400162	geckodriver	INFO	Listening on 127.0.0.1:52129
+1565867402196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.p8ZPIJUcdT3f"
+1565867402635	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867402989	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867403276	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2260] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1688] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565867406351	Marionette	INFO	Listening on port 52137
+1565867406416	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565867406491	Marionette	DEBUG	Register listener.js for window 4294967297
+1565867406710	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565867407003	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565867407004	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565867407515	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867407749	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867408257	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867408455	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867408457	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867408581	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867408672	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867409770	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867409966	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867409970	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867410139	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867410256	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867411172	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867412293	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565867412684	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867412785	Marionette	INFO	New connections will no longer be accepted
+[Parent 2260] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565867426097	geckodriver	INFO	geckodriver 0.19.1
+1565867426115	geckodriver	INFO	Listening on 127.0.0.1:52231
+1565867428166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.OD87YLK5UX4g"
+1565867428786	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867429350	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867429727	Marionette	INFO	Enabled via --marionette
+1565867432332	Marionette	INFO	Listening on port 52239
+1565867433432	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867444692	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565867468930	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1565867595094	geckodriver	INFO	geckodriver 0.19.1
+1565867595102	geckodriver	INFO	Listening on 127.0.0.1:52473
+1565867597151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.99SLrQAhGW4J"
+1565867597692	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867598098	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867598486	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4676] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 324] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 324] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565867601247	Marionette	INFO	Listening on port 52480
+1565867601283	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565867601370	Marionette	DEBUG	Register listener.js for window 4294967297
+1565867601758	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565867601960	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565867601960	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565867602538	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867602647	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867603067	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867603246	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867603249	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867603380	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867603425	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867604496	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867604650	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867604651	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867604811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867604939	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867605745	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867607110	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565867607448	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867608036	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867608107	Marionette	INFO	New connections will no longer be accepted
+[Parent 4676] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565867639187	geckodriver	INFO	geckodriver 0.19.1
+1565867639195	geckodriver	INFO	Listening on 127.0.0.1:52591
+1565867641248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.NFenJPKD5kqQ"
+1565867641733	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867642059	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867642330	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4380] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4612] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4612] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565867645083	Marionette	INFO	Listening on port 52598
+1565867645368	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565867645452	Marionette	DEBUG	Register listener.js for window 4294967297
+1565867645649	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565867645858	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565867645860	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565867646375	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867646529	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867647114	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867647368	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867647370	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867647530	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867647607	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867648690	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867648867	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867648873	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867649015	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867649126	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867650308	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867655639	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565867655996	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867657225	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867657571	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565867681682	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1565867715427	geckodriver	INFO	geckodriver 0.19.1
+1565867715443	geckodriver	INFO	Listening on 127.0.0.1:52755
+1565867717475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.f6ycqHiJgiMC"
+1565867717973	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867718328	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867718571	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4740] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4704] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565867721373	Marionette	INFO	Listening on port 52762
+1565867721699	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565867721757	Marionette	DEBUG	Register listener.js for window 4294967297
+1565867721897	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565867722029	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565867722029	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565867722629	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867722927	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867723347	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867723555	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867723557	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867723689	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867723703	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867724766	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867724950	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867724952	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867725109	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867725182	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867726153	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867727297	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565867727532	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867728684	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867728758	Marionette	INFO	New connections will no longer be accepted
+[Child 1092] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1565867805930	geckodriver	INFO	geckodriver 0.19.1
+1565867805946	geckodriver	INFO	Listening on 127.0.0.1:52904
+1565867808039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.eYz6GiZwSgdz"
+1565867808758	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867809182	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565867809531	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4520] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2408] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565867812609	Marionette	INFO	Listening on port 52911
+1565867813296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565867813356	Marionette	DEBUG	Register listener.js for window 4294967297
+1565867813526	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565867813706	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565867813707	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565867814163	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867814434	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867814886	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867815077	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867815079	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867815207	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565867815216	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565867816293	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565867816487	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565867816491	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565867816611	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867816676	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565867817505	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867818632	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565867818900	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867820050	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565867821203	Marionette	INFO	New connections will no longer be accepted
+1565868135783	geckodriver	INFO	geckodriver 0.19.1
+1565868135798	geckodriver	INFO	Listening on 127.0.0.1:53254
+1565868137839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.cifk3hR9Y6Zc"
+1565868138292	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565868138634	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565868138892	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3044] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4852] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4852] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565868142157	Marionette	INFO	Listening on port 53261
+1565868143139	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565868143211	Marionette	DEBUG	Register listener.js for window 4294967297
+1565868143357	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565868143487	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565868143488	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565868143827	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565868144030	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565868144461	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565868144632	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565868144634	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565868144759	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565868144839	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565868145939	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565868146106	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565868146108	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565868146253	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565868146426	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565868147282	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868148476	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565868148702	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868149868	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868154255	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565868178358	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1565868212184	geckodriver	INFO	geckodriver 0.19.1
+1565868212194	geckodriver	INFO	Listening on 127.0.0.1:53402
+1565868214236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.7zwlCojqKGlo"
+1565868214757	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565868215102	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565868215377	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 1444] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1656] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565868218166	Marionette	INFO	Listening on port 53409
+1565868218392	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565868218456	Marionette	DEBUG	Register listener.js for window 4294967297
+1565868218604	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565868218777	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565868218778	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565868219294	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565868219486	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565868219920	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565868220089	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565868220090	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565868220231	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565868220240	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565868221305	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565868221455	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565868221458	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565868221648	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565868221744	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565868222948	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868224077	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565868224294	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868225506	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868225697	Marionette	INFO	New connections will no longer be accepted
+1565868252495	geckodriver	INFO	geckodriver 0.19.1
+1565868252510	geckodriver	INFO	Listening on 127.0.0.1:53517
+1565868254582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.1lGqilTtBxT3"
+1565868255032	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565868255332	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565868255598	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4852] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4304] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4304] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565868258441	Marionette	INFO	Listening on port 53524
+1565868258911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565868258979	Marionette	DEBUG	Register listener.js for window 4294967297
+1565868259189	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565868259376	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565868259377	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565868259721	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565868260111	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565868260642	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565868260844	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565868260847	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565868260981	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565868260993	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565868262059	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565868262211	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565868262216	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565868262359	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565868262426	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565868263470	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868264618	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565868264859	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868266028	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868270755	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565868294864	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1565868301964	geckodriver	INFO	geckodriver 0.19.1
+1565868301982	geckodriver	INFO	Listening on 127.0.0.1:53652
+1565868304033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\56\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhongkai\\AppData\\Local\\Temp\\rust_mozprofile.CKuzdLv49rSW"
+1565868304523	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565868304861	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/56/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/56/omni.ja!/components/addonManager.js:65
+1565868305186	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3940] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5116] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5116] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1565868307898	Marionette	INFO	Listening on port 53659
+1565868308165	Marionette	WARN	TLS certificate errors will be ignored for this session
+1565868308245	Marionette	DEBUG	Register listener.js for window 4294967297
+1565868308479	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1565868308657	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1565868308658	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+Unable to read VR Path Registry from C:\Users\zhongkai\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+1565868309229	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565868309318	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565868309862	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565868310063	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565868310065	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565868310193	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php"
+1565868310295	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php"
+1565868311370	Marionette	DEBUG	Received DOM event "beforeunload" for "http://192.168.102.149/Agileone/index.php"
+1565868311543	Marionette	DEBUG	Received DOM event "pagehide" for "http://192.168.102.149/Agileone/index.php"
+1565868311546	Marionette	DEBUG	Received DOM event "unload" for "http://192.168.102.149/Agileone/index.php"
+JavaScript warning: http://192.168.102.149/Agileone/Library/JQuery/jquery.js, line 19: unreachable code after return statement
+JavaScript error: http://192.168.102.149/Agileone/Library/JQuery/jquery.datetime.js, line 203: SyntaxError: missing ( before formal parameters
+1565868311703	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565868311845	Marionette	DEBUG	Received DOM event "pageshow" for "http://192.168.102.149/Agileone/index.php/minutes"
+1565868312675	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868319161	Marionette	DEBUG	Received DOM event "popstate" for "http://192.168.102.149/Agileone/index.php/minutes#top"
+1565868319364	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1565868319652	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1565868343804	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1565868359627	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
