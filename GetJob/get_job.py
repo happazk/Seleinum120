@@ -19,9 +19,9 @@ class GetJob(unittest.TestCase):
         )
 
         self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(15)
-        self.driver.set_page_load_timeout(30)
-        self.driver.set_script_timeout(30)
+        self.driver.implicitly_wait(60)
+        self.driver.set_page_load_timeout(60)
+        self.driver.set_script_timeout(60)
         self.driver.maximize_window()
 
     def test_get51_job(self):

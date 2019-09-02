@@ -1,20 +1,57 @@
 import logging
 
-logging.basicConfig(  # 通过具体的参数来更改logging模块默认行为；
-        level=logging.ERROR,  # 设置告警级别为ERROR；
-        format="%(asctime)s---%(lineno)s----%(name)s: %(message)s",  # 自定义打印的格式；
-        filename="yinzhengjie.txt",  # 将日志输出到指定的文件中；
-        filemode="a",  # 以追加的方式将日志写入文件中，w是以覆盖写的方式哟;
-)
-logging.debug("debug message")  # 告警级别最低，只有在诊断问题时才有兴趣的详细信息。
 
-logging.info("info message")  # 告警级别比debug要高，确认事情按预期进行。
+# logging.basicConfig(  # 通过具体的参数来更改logging模块默认行为；
+#         level=logging.ERROR,  # 设置告警级别为ERROR；
+#         format="%(asctime)s---%(lineno)s----%(name)s: %(message)s",  # 自定义打印的格式；
+#         filename="yinzhengjie.txt",  # 将日志输出到指定的文件中；
+#         filemode="a",  # 以追加的方式将日志写入文件中，w是以覆盖写的方式哟;
+# )
+# logging.debug("debug message")  # 告警级别最低，只有在诊断问题时才有兴趣的详细信息。
+#
+# logging.info("info message")  # 告警级别比debug要高，确认事情按预期进行。
+#
+# logging.warning("warning message")  # 告警级别比info要高，该模式是默认的告警级别！预示着一些意想不到的事情发生，或在不久的将来出现一些问题（例如“磁盘空间低”）。该软件仍在正常工作。
+#
+# logging.error("error message")  # 告警级别要比warning药膏，由于一个更严重的问题，该软件还不能执行某些功能。
+#
+# logging.critical("critical message")  # 告警级别要比error还要高，严重错误，表明程序本身可能无法继续运行。
 
-logging.warning("warning message")  # 告警级别比info要高，该模式是默认的告警级别！预示着一些意想不到的事情发生，或在不久的将来出现一些问题（例如“磁盘空间低”）。该软件仍在正常工作。
 
-logging.error("error message")  # 告警级别要比warning药膏，由于一个更严重的问题，该软件还不能执行某些功能。
+class LogMod():
+    def log_err(self, file='log_info.txt', message='', write=True):
+        logging.basicConfig(  # 通过具体的参数来更改logging模块默认行为；
+                level=logging.ERROR,  # 设置告警级别为ERROR；
+                format="%(asctime)s---%(lineno)s----%(funcName)s: %(message)s",  # 自定义打印的格式；
+                filename=file,  # 将日志输出到指定的文件中；
+                filemode="a",  # 以追加的方式将日志写入文件中，w是以覆盖写的方式哟;
+        )
+        if write != True:
+            return
+        logging.error(message)
 
-logging.critical("critical message")  # 告警级别要比error还要高，严重错误，表明程序本身可能无法继续运行。
+    def log_debug(self, file='log_info.txt', message='', write=True):
+        logging.basicConfig(  # 通过具体的参数来更改logging模块默认行为；
+                level=logging.DEBUG,  # 设置告警级别为DEBUG；
+                format="%(asctime)s---%(lineno)s----%(funcName)s: %(message)s",  # 自定义打印的格式；
+                filename=file,  # 将日志输出到指定的文件中；
+                filemode="a",  # 以追加的方式将日志写入文件中，w是以覆盖写的方式哟;
+        )
+        if write != True:
+            return
+        logging.debug(message)
+
+    def log_info(self, file='log_info.txt', message='', write=True):
+        logging.basicConfig(  # 通过具体的参数来更改logging模块默认行为；
+                level=logging.INFO,  # 设置告警级别为INFO；
+                format="%(asctime)s---%(lineno)s----%(funcName)s: %(message)s",  # 自定义打印的格式；
+                filename=file,  # 将日志输出到指定的文件中；
+                filemode="a",  # 以追加的方式将日志写入文件中，w是以覆盖写的方式哟;
+        )
+        if write != True:
+            return
+        logging.info(message)
+
 
 """
 19 format参数中可能用到的格式化串:
